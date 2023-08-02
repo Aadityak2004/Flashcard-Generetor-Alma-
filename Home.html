@@ -1,0 +1,302 @@
+<html>
+
+<head>
+    <title>
+        Web
+    </title>
+    <style>
+        body {
+            background-color: rgb(94, 91, 100);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+
+        .container {
+
+            margin-top: 23px;
+            ;
+
+        }
+
+        ul {
+            display: flex;
+            margin-left: 379px;
+            background-color: #787878;
+            border-radius: 29px;
+            border-bottom: 3.5px solid #161515eb;
+            border-right: 3.5px solid #161515eb;
+            width: 421px;
+        }
+
+        ul li {
+            padding: 1.5rem;
+            list-style: none;
+            font-size: 21px;
+        }
+
+        ul li:hover {
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            border-top: 2px solid rgb(255, 255, 255);
+            filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+        }
+
+        .About {
+            background-color: #adadad;
+            width: 554px;
+            text-align: justify;
+            border-radius: 25px;
+            font-size: 30.5px;
+            margin-left: 356px;
+            border-bottom: 4px solid #231135;
+            border-right: 4px solid #231135;
+
+        }
+
+
+        #About_text {
+            display: none;
+        }
+
+        .About li {
+            margin-left: 20px;
+            list-style: circle;
+        }
+
+        .About li:hover {
+            list-style: disc;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            filter: drop-shadow(0px 0px 5px black);
+        }
+
+        .Contact {
+            background-color: #adadad;
+            text-align: justify;
+            width: 920px;
+            border-radius: 25px;
+            font-size: 27.5px;
+            margin-left: 172px;
+            border-bottom: 4px solid #231135;
+            border-right: 4px solid #231135;
+        }
+
+        #Contact_text {
+            display: none;
+        }
+
+        .Contact li {
+            margin-left: 20px;
+            list-style: circle;
+        }
+
+        .Contact li:hover {
+            list-style: disc;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            filter: drop-shadow(0px 0px 5px black);
+        }
+
+        .Education {
+            background-color: #adadad;
+            text-align: justify;
+            width: 694px;
+            border-radius: 25px;
+            font-size: 27.5px;
+            margin-left: 285px;
+            border-bottom: 4px solid #231135;
+            border-right: 4px solid #231135;
+        }
+
+        #Education_text {
+            display: none;
+        }
+
+        .Education li {
+            margin-left: 20px;
+            list-style: circle;
+        }
+
+        .Education li:hover {
+            list-style: disc;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            filter: drop-shadow(0px 0px 5px black);
+        }
+
+        .men_png {
+            margin-left: 853px;
+            margin-top: 100px;
+            /* box-shadow: 10px 10px 15px red; */
+            filter: drop-shadow(10px 10px 10px rgb(179, 179, 179));
+        }
+
+        .left {
+            margin-top: -400px;
+            margin-left: 122px;
+
+
+        }
+
+
+        .left h1 {
+            margin-left: -38px;
+            font-size: 7rem;
+            color: rgb(191, 191, 191);
+            filter: drop-shadow(10px 9px 11px black);
+        }
+
+        .left pre {
+            font-size: 2.5rem;
+            margin-left: -50px;
+            color: rgb(191, 191, 191);
+            margin-top: -45px;
+        }
+
+        .round {
+            margin-left: 778px;
+            margin-top: -502px;
+        }
+
+        .footer_lines {
+            margin-top: -120px;
+            margin-left: 125px;
+        }
+
+        .first_line {
+            background-color: rgba(248, 152, 9, 0.801);
+            margin-top: 80px;
+            height: 5px;
+            width: 1000px;
+            box-shadow: 5px 6px 6px black;
+        }
+
+        .second_line {
+            background-color: white;
+            margin-top: 50px;
+            height: 5px;
+            width: 600px;
+            margin-left: 200px;
+            box-shadow: 5px 6px 6px black;
+        }
+
+        .third_line {
+            background-color: rgb(17, 179, 39);
+            margin-top: 50px;
+            height: 5px;
+            width: 1000px;
+            box-shadow: 5px 6px 6px black;
+        }
+
+        .down {
+            margin-left: 326px;
+            margin-top: 120px;
+            background-color: #ffffff;
+            width: 600px;
+        }
+
+        .down a {
+
+            color: #747474;
+            font-size: 1.5rem;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li>
+                <a1 id="About_btn" onclick="About()">About Me</a1>
+
+            </li>
+            <li>
+                <a2 id='Contact_btn' onclick="Contact()">Contact</a2>
+            </li>
+
+            <li>
+                <a3 id='Contact_btn' onclick="Education()"> Education</a3>
+            </li>
+        </ul>
+    </div>
+    <div class="header">
+        <div id="About_text" class="About">
+            <li>Name :- Aaditya Tulshiram Kathoke</li>
+            <li>D.O.B :- 12/03/2004</li>
+            <li>Age :- 19Y/O</li>
+            <li>Address :- Mauli Niwas, Kasar Galli</li>
+            <li>City :- Faizpur</li>
+            <li>Dist :- Jalgoan</li>
+            <li> Marital Status :- Not Married</li>
+            <li>Nationality :- "INDIAN"</li>
+        </div>
+        <div id="Contact_text" class="Contact">
+            <li>Mobile No :- +918956391789</li>
+            <li>Gmail Id :- adityakathoke15@gmail.com /
+                adityakathoke17@gmail.com</li>
+            <li>Insta Id :- aadityak_2004</li>
+            <li>Linkden :- www.linkden.com/in/aditya-kathoke-19881723a</li>
+
+        </div>
+        <div id="Education_text" class="Education">
+            <li>SSC :- K.M.C.M.V.Faizpur (year-2020)</li>
+            <li>HSC :- M.H.S.Faizpur (year-2022) </li>
+            <li>ITI :- Govt.I.T.I.Jalgoan (year-2022) </li>
+            <li>BCA :- D.N.M.FAIZPUR (year-Appear )</li>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="right">
+        <div class="men_png">
+            <img src="men_png.gif" alt="Not working" height="400px" width="400px">
+        </div>
+    </div>
+    <div class="left">
+        <h1>Hey There,</h1>
+
+        <pre>"My Self Aaditya Tulshiram Kathoke 
+             use short as (A.T.K)"
+    </pre>
+        </h3>
+    </div>
+    <div class="round"><img src="Bg_Circle.gif" alt="Not played" width="550px ">
+    </div>
+    <div class="footer_lines">
+        <div class="first_line">
+            <hr>
+        </div>
+        <div class="second_line">
+            <hr>
+        </div>
+        <div class="third_line">
+            <hr>
+        </div>
+    </div>
+    <!-- <div class="r"><img src="" alt="nirh8djdjj"</div> -->
+    <footer>
+        <div class="down">
+            <a>This portfolio website does not have any copyright &#169; content </a>
+        </div>
+
+    </footer>
+
+</body>
+
+
+<script src="script.js"></script>
+<script src="style.css"></script>
+
+</html>
