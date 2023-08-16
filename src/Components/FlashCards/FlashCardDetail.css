@@ -8,8 +8,8 @@
 }
 
 .FlashCardBox {
-  margin-top: 30px;
-  height: 30vh;
+   margin-top: 30px;
+  height: 45vh;
   width: 79vw;
   background-color: rgb(245 245 245);
   filter: drop-shadow(2px 2px 2px black);
@@ -53,4 +53,34 @@
   justify-content: center;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+
+/* -------------------------------MEdia Query----------------------- */
+
+@media screen and (min-width:0px) and (max-width:355px){
+  .FlashCardBox{
+    height: 78vh;
+   
+  }
+}
+
+@media screen and (min-width:355px) and (max-width:455px){
+  .FlashCardBox{
+    height: 70vh;
+   
+  }
+}
+
+@media screen and (min-width:455px) and (max-width:580px){
+  .FlashCardBox{
+    height: 65vh;
+   
+  }
+}
+
+@media screen and (max-height:560px){
+  .FlashCardBox{
+    height: 100vh;
+  }
 }
