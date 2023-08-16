@@ -1,0 +1,39 @@
+.firstblock {
+  margin-top: 25px;
+  background-color: rgb(19, 154, 207);
+  filter: drop-shadow(2px 2px 2px black);
+  border-radius: 15px;
+}
+.secondblock {
+  margin-top: 25px;
+  background-color: rgb(19, 154, 207);
+  filter: drop-shadow(2px 2px 2px black);
+  border-radius: 15px;
+
+}
+
+@media screen and (max-width: 1500px) {
+  .Description {
+    width: 310vw;
+  }
+  .write_terms {
+    width: 253vw;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .write_defination{
+    width: 253vw;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width:738px) and
+(max-width:1500px){
+  .Upload_image{
+  margin-top: 36px;
+  }
+}
+
+
+
+

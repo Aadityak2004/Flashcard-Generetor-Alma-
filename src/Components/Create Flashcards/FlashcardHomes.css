@@ -1,0 +1,15 @@
+.MainBg{
+    background-color: whitesmoke;
+    background-image: url(mainBackground.png.svg);
+   
+}
+.newfcname{
+    background-color: whitesmoke;
+    border-radius: 2px;
+    
+}
+
+.myfcname{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}

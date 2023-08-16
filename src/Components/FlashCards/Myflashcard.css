@@ -1,0 +1,80 @@
+.Create_btn_bg {
+  margin-top: 150px;
+  color: black;
+  padding: 5px 5px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.719);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: rgb(19, 154, 207);
+}
+
+.Create_btn {
+  background-color: rgb(6 53 72 / 76%);
+  color: whitesmoke;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 15px 15px 15px 15px;
+  justify-content: center;
+}
+
+.boxs {
+  background-color: rgb(36 114 177);
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.425);
+  border-radius: 15px;
+}
+
+.Delete {
+  color: red;
+  margin-top: -30px;
+  margin-left: 220px;
+}
+.Delete:hover {
+  filter: drop-shadow(2px 2px 2px black);
+}
+.Show_btn {
+  color: black;
+  background-color: rgb(177, 136, 83);
+  border-radius: 25px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.699);
+}
+.Img {
+  margin-top: -40px;
+  margin-left: 15px;
+  border-radius: 50px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.733);
+}
+
+/* -------------------Media Quere----------------------------*/
+@media screen and (max-width: 639px) {
+  .Grp_name {
+    margin-left: 55px;
+  }
+  .Grp_desc {
+    margin-left: 52px;
+  }
+  .Card_No {
+    margin-left: 38px;
+  }
+  .Show_btn {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 322px) {
+  .Text {
+    font-size: 15px;
+  }
+  .Create_btn {
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 322px) and (max-width: 391px) {
+  .Text {
+    font-size: medium;
+  }
+  .Create_btn {
+    padding: 7px 7px 7px 7px;
+  }
+}
